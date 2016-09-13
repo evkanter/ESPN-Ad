@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>ESPN Programming Exercise - Buffalo Wild Wings</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="Scoreboard.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,900,700' rel='stylesheet' type='text/css'>
+		<link href='Scoreboard.css' rel='stylesheet' type='text/css'>
+	</head>
+	<body onload="init();">
+		<div id="OuterBox3" class="MainOuterBox" class="backgroundcolor">
+			<a href="#" onclick="toggle(); return false;">
+				<div id="OuterBox2">
+					<div id="compressed" class="MainOuterBoxClosed BlackBorder backgroundcolor">
+						<img class="ImageResponsive" src="images/compressed_banner.jpg">
+						<div class="arrowdown" id="arrow_down"><img src="images/DownArrow.gif" class="downarrow right"></div>
+					</div>
+					<div id="fullsize" class="MainOuterBoxOpen BlackBorder backgroundcolor" style="display:none;">
+						<img class="ImageResponsive" src="images/compressed_banner.jpg">
+						<div class="arrowup" id="arrow_up" style="display:none;"><img src="images/UpArrow.gif" class="uparrow right"></div>
+
+						<a href="http://www.buffalowildwings.com/en/locations/">
+							<div class="internalborder">
+								<div>
+									<div id="MainContainer" class="Scoreboard"></div>
+								</div>					
+							</div>
+						</a>
+					</div>
+				</div>
+			</a>
+		</div>
+	</body>
+</html>

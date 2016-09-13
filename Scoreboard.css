@@ -1,0 +1,75 @@
+.MainOuterBox {max-width: 1280px; height:auto;}
+.BlackBorder {border:1px solid #000000;}
+.MainOuterBoxOpen {max-height: 414px; max-width: 1280px;}
+.MainOuterBoxClosed {max-height: 100px; max-width: 1280px;}
+.ImageResponsive {max-width: 100%; height: auto;}
+.downarrow {width:40px; height:40px;}
+.uparrow {width:40px; height:40px;}
+.right{ float:right; text-align:right; vertical-align: top; position: relative; right: 20px; top: -70px; z-index: 5;}
+.rightFloater { float:right; text-align:right; vertical-align: top; position: relative; right: 20px; bottom: -70px; z-index: 5;}
+.hideobject {display: none;}
+.backgroundcolor {background-color: #FCCD01;}
+.internalborder  {margin:5px;}
+.scoreboard{ padding:10px; border:1px solid #000000; height:auto; width:auto; background-color: #FFFFFF; max-height:283px; height:100%; box-sizing: content-box; margin-right:10px;}
+.datetime .time {color: #990000;}
+.inlineScoreboard {display:inline-block;}
+.scoreboardBox {margin-bottom:9px; margin-top:9px; width:150px;}
+.outstatus {color: #444444; vertical-align: baseline;}
+.logowidth {width: 40px;}
+.teamwidth {width: 150px;}
+.scorewidth {width: 40px; float:right;}
+.scoreboardFont {font-family:"Lato", sans-serif; font-weight: 400; }
+.scoreboardFont2 {font-family:"Lato", sans-serif; font-weight: 700; }
+.scoreboardFontRed {font-family:"Lato", sans-serif; font-weight: 900; font-size:13px; color:#990000;}
+.scoreboardCentering {vertical-align: super;}
+.scoreboardSpacing {margin-left:5px;}
+.nav-menu > ul {list-style : none; list-style-type: none; margin : 0; padding : 0; -webkit-padding-start:0; }
+.nav-menu li {list-style: none;}
+.spacerMargin {margin-left:10px;}
+.spacerMarginTop {margin-top:8px;}
+.spacerMarginRight {margin-top:10px;}
+.GameSize {width:350px; height: 140px; padding: 25px; margin-bottom:20px; display: inline;}
+
+@media (max-width: 980px) {
+		#game_overview_10 {display:none;}
+		#game_overview_11 {display:none;}
+		#game_overview_12 {display:none;}
+		#game_overview_13 {display:none;}
+		#game_overview_14 {display:none;}
+		#game_overview_15 {display:none;}
+}
+
+@media (max-width: 940px) {
+	.downarrow {width:20px; height:20px;}
+	.uparrow {width:20px; height:20px;}
+	.right{ float:right; text-align:right; vertical-align: top; position: relative; right: 20px; top: -50px; z-index: 5;}
+	.rightFloater { float:right; text-align:right; vertical-align: top; position: relative; right: 20px; bottom: -50px; z-index: 5;}
+}
+
+@media (max-width: 680px) {
+		.rightFloater {display:none;}
+		#game_overview_8 {display:none;}
+		#game_overview_9 {display:none;}
+	.downarrow {width:20px; height:20px;}
+	.uparrow {width:20px; height:20px;}
+	.right{ float:right; text-align:right; vertical-align: top; position: relative; right: 30px; top: -30px; z-index: 5;}
+	.rightFloater { float:right; text-align:right; vertical-align: top; position: relative; right: 30px; bottom: -30px; z-index: 5;}
+
+}
+
+@media (max-width: 620px) {
+		.rightFloater {display:none;}
+		#game_overview_6 {display:none;}
+		#game_overview_7 {display:none;}
+}
+
+@media (max-width: 346px) {
+		.rightFloater {display:none;}
+		#game_overview_3 {display:none;}
+		#game_overview_4 {display:none;}
+		#game_overview_5 {display:none;}
+	.downarrow {display:none; width:15px; height:15px;}
+	.uparrow {display:none; width:15px; height:15px;}
+}
+
+
